@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    padding: 0%;
+    background-color: rgb(57, 168, 247);
+}
+
+.header {
+    padding: 0%;
+    background-color: rgb(65, 28, 198);
+    height: 100px;
+    text-align: center;
+    font-size: 35px;
+    color: rgb(56, 214, 21);
+    font-family: "Shantell Sans", sans-serif;
+    height: 28vh;
+    border: 2px solid #f4f2f8;
+}
+
+.TheApp {
+    display: flex;
+    justify-content: center;
+}
+
+.text {
+    margin: 0;
+    background-color: rgb(26, 80, 3);
+    color: rgb(128, 126, 17);
+    padding: 10px;
+    font-size: 20px;
+    font-family: "Shantell Sans", sans-serif;
+    font-weight: bold;
+}
+
+.buttonCss {
+    background-color: rgb(190, 217, 39);
+    color: white;
+    font-size: 20px;
+    border-width: 0;
+    border-radius: 10px;
+    width: 200px;
+    font-family: "Shantell Sans", sans-serif;
+}
+
+.output {
+    color: rgb(8, 7, 2);
+    font-size: 40px;
+}
