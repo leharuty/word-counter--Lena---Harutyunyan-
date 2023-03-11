@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculation</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500&family=Rubik+Vinyl&family=Shantell+Sans:wght@300;400&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="header">
+    <header>
+      <h1>Calculator</h1>
+    </header>
+  </div>
+  <div class="TheApp">
+    <div class="TheWholeMaket">
+      <div class="text">
+        Text what you want : <br>
+        <textarea id="textarea" name="text" rows="12" cols="100"></textarea><br>
+      </div>
+      <div class="buttonCss">
+        <button type="button" class="buttonCss" onClick="calculate()">Calculate</button>
+      </div>
+      <div class="output">
+        <p>Letters :
+          <span id="resultLetters"></span>
+        </p>
+
+        <p>Numbers:
+          <span id="resultNumbers"></span>
+        </p>
+
+        <p> Words:
+          <span id="resultWords"></span>
+        </p>
+
+        <p> Sentences:
+          <span id="resultSentences"></span>
+        </p>
+      </div>
+    </div>
+
+  </div>
+  <script src="index.js"></script>
+</body>
+
+</html>
