@@ -1,1 +1,3 @@
-# word-counter--Lena---Harutyunyan-
+# TumoLabs Station Project 1
+
+### word-counter-Lena-harutyunyan
